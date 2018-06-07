@@ -1,0 +1,8 @@
+---
+# This playbook deploys selected war to that tomcat.
+
+- hosts: all
+  become: true
+  roles:
+    - tomcat_deploy
+

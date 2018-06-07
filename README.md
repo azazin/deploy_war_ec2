@@ -1,1 +1,1 @@
-# deploy_war_ec2
+# deploy selected war to tomcat on ec2 

@@ -1,0 +1,8 @@
+---
+- name: deploy war to tomcat 
+  copy:
+    src: /var/lib/jenkins/workspace/download_and_deploy/target.war
+    dest: /usr/share/tomcat/webapps/target.war
+    owner: tomcat
+    group: tomcat
+    mode: 0644
